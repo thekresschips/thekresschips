@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #000055, #000000);
+}
+.container-header {
+    background-color: none;
+    margin: 0;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.container-header img {
+    height: 100px;
+}
+.container-header li {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+.container-header ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    color: white;
+}
+
+.container-button {
+    background-color: none;
+    display: block;
+    text-align: center;
+}
+
+.container-button h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+.container-button a {
+    text-decoration: none;
+    color: #d84527;
+    background-color: none;
+    border: 2px solid hsl(10, 69%, 50%);
+    border-radius: 20px 0px;
+    padding: 20px 40px;
+    height: 10px 30px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-button a:hover {
+    color: turquoise;
+    background-color: blue;
+    size-adjust: 10px;
+    font-weight: initial;
+    border-radius: 10px 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.container-online-shop {
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-online-shop h1 {
+    font-style: italic;
+    text-decoration: none;
+    color: #f3b91e;
+    background-color: none;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.container-online-shop a {
+    text-decoration: none;
+    color: #d84527;
+    font-size: 30px;
+    border: 2px solid #d84527;
+    border-radius: 20px 0px;
+    padding: 10px 60px;
+}
+.container-online-shop a:hover {
+    color: turquoise;
+    background-color: blue;
+    transition: all 0.4s ease-in-out;
+    text-shadow: 2px 2px #333;
+    color: white;
+}
+
+.container-footer {
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    margin-top: 200px;
+    color: white;
+}
